@@ -1,4 +1,4 @@
-# YEN Community
+# YEN Community Portal
 
 Welcome to the official community hub for **YEN** — a modern terminal for the AI-native developer.
 
@@ -48,8 +48,8 @@ defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionStri
 
 ## Code of Conduct
 
-We're committed to providing a welcoming environment for everyone. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+Pretty simple: **Don't be a jerk**. If you need a "Code of Conduct" then you're in the wrong spot.
 
 ---
 
-Built with care for developers who live in the terminal.
+Built for those who live in the Terminal.
