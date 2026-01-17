@@ -8,47 +8,57 @@ This repository is for:
 - **Feature Fequests** — ideas for new functionality
 - **Discussions** — questions, feedback, and general conversation
 
-## Getting Started with YEN
+## Download YEN
 
 Visit [yenchat.com](https://yenchat.com) to download YEN for macOS.
 
-## How to Provide Feedback
+## Ways to Contribute
 
-### Report a Bug
+### Report Bugs
 
-If you've encountered an issue:
+Found something broken? [Open a bug report](https://github.com/8bittts/yen-chat/issues/new?template=bug_report.yml) with:
 
-1. [Search existing issues](https://github.com/8bittts/yen-chat/issues) to avoid duplicates
-2. [Open a new bug report](https://github.com/8bittts/yen-chat/issues/new?template=bug_report.yml)
-3. Include your YEN version and macOS version
-4. Describe what happened vs. what you expected
+- Your YEN and macOS versions
+- Steps to reproduce the issue
+- What you expected vs. what happened
+- Screenshots or logs if available
 
-### Request a Feature
+### Request Features
 
-Have an idea for YEN?
+Have an idea? [Submit a feature request](https://github.com/8bittts/yen-chat/issues/new?template=feature_request.yml) with:
 
-1. [Check existing feature requests](https://github.com/8bittts/yen-chat/issues?q=is%3Aissue+label%3Aenhancement) to see if it's already proposed
-2. [Submit a feature request](https://github.com/8bittts/yen-chat/issues/new?template=feature_request.yml)
-3. Describe the problem you're trying to solve
-4. Upvote existing requests with a thumbs up reaction
+- The problem you're trying to solve
+- Your proposed solution
+- Any alternatives you've considered
 
-### Join the Discussion
+### Vote on Existing Issues
 
-For general questions, ideas, or conversation:
+Help us prioritize by adding a thumbs up reaction to issues you care about. This helps us understand what matters most to the community.
 
-- [Start a discussion](https://github.com/8bittts/yen-chat/discussions)
+### Join Discussions
 
-## Finding Your YEN Version
+Participate in [Discussions](https://github.com/8bittts/yen-chat/discussions) to:
+
+- Ask questions
+- Share tips and workflows
+- Connect with other YEN users
+
+## Guidelines
+
+- **Search first** — Check if your issue or idea already exists before creating a new one.
+- **One issue per report** — Keep bug reports and feature requests focused on a single topic.
+- **Be specific** — The more detail you provide, the better we can help.
+- **Be patient** — We review all feedback, but response times may vary.
+- **Be kind** — If you need a "Code of Conduct" then you're not our people.
+
+## Finding Your Version
 
 Open YEN and check **YEN > About YEN** in the menu bar, or run:
 
-```bash
+```
+bash
 defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionString
 ```
-
-## Code of Conduct
-
-Pretty simple: **Don't be a jerk**. If you need a "Code of Conduct" then you're in the wrong spot.
 
 ---
 
