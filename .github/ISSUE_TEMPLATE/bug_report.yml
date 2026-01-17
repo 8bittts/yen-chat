@@ -1,0 +1,88 @@
+name: Bug Report
+description: Report something that isn't working correctly
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please fill out the information below to help us investigate.
+
+  - type: input
+    id: yen-version
+    attributes:
+      label: YEN Version
+      description: "Find this in YEN > About YEN"
+      placeholder: "e.g., 0.58"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS Version
+      description: "Find this in Apple menu > About This Mac"
+      placeholder: "e.g., macOS 15.2 Sequoia"
+    validations:
+      required: true
+
+  - type: input
+    id: chip
+    attributes:
+      label: Mac Chip
+      description: "Apple Silicon (M1/M2/M3/M4) or Intel?"
+      placeholder: "e.g., Apple M2 Pro"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug
+      placeholder: "Describe what went wrong..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: What should have happened instead?
+      placeholder: "Describe the expected behavior..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: How can we reproduce this issue?
+      placeholder: |
+        1. Open YEN
+        2. Do this...
+        3. Then this...
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: |
+        If applicable, add screenshots or paste any error messages.
+
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+      placeholder: "Paste logs or drag images here..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Any other information that might help (shell, config, etc.)
+      placeholder: "e.g., Using zsh with oh-my-zsh, custom .zshrc config..."
+    validations:
+      required: false

@@ -1,0 +1,70 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature! Please describe your idea below.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or motivation
+      description: What problem does this solve? Why do you want this feature?
+      placeholder: "I often find myself needing to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How do you envision this working?
+      placeholder: "It would be great if YEN could..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you tried any workarounds or alternatives?
+      placeholder: "I've tried using X but it doesn't work because..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of YEN does this relate to?
+      options:
+        - Terminal / Shell
+        - User Interface
+        - Keyboard Shortcuts
+        - Configuration / Settings
+        - Performance
+        - Integration (other tools)
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Screenshots, mockups, links to similar features in other tools, etc.
+      placeholder: "Here's how Terminal X does something similar..."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: search
+    attributes:
+      label: Due diligence
+      options:
+        - label: I have searched existing issues and this feature hasn't been requested before
+          required: true
