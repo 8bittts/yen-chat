@@ -1,6 +1,6 @@
 # YEN Community Portal
 
-Welcome to the official community hub for **YEN**! We're building a modern terminal for the AI-native developer.
+Welcome to the official community portal for **YEN**! We're building a modern terminal for the AI-native developer. We'd love your help!
 
 This repository is for:
 
@@ -22,7 +22,7 @@ Open YEN and check **YEN > About YEN** in the menu bar, or run:
 defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionString
 ```
 
-#### Report Bugs
+### Report Bugs
 
 Found something broken? [Open a bug report](https://github.com/8bittts/yen-chat/issues/new?template=bug_report.yml) with:
 
@@ -31,7 +31,7 @@ Found something broken? [Open a bug report](https://github.com/8bittts/yen-chat/
 - What you expected vs. what happened
 - Screenshots or logs if available
 
-#### Request Features
+### Request Features
 
 Have an idea? [Submit a feature request](https://github.com/8bittts/yen-chat/issues/new?template=feature_request.yml) with:
 
@@ -39,11 +39,11 @@ Have an idea? [Submit a feature request](https://github.com/8bittts/yen-chat/iss
 - Your proposed solution
 - Any alternatives you've considered
 
-#### Vote on Existing Issues
+### Vote on Existing Issues
 
 Help us prioritize by adding a thumbs up reaction to issues you care about. This helps us understand what matters most to the community.
 
-#### Join Discussions
+### Join Discussions
 
 Participate in [Discussions](https://github.com/8bittts/yen-chat/discussions) to:
 
