@@ -1,3 +1,6 @@
+
+<img width="1024" height="1024" alt="yen-onigiri-5-black" src="https://github.com/user-attachments/assets/96373201-8f40-4e17-9d3a-2c072cb5fc15" />
+
 # YEN Community Portal
 
 Welcome to the official community portal for **YEN**! We're building a modern terminal for the AI-native developer. We'd love your help!
