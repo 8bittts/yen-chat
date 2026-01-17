@@ -1,6 +1,6 @@
 # YEN Community Portal
 
-Welcome to the official community hub for **YEN** — a modern terminal for the AI-native developer.
+Welcome to the official community hub for **YEN**! We're building a modern terminal for the AI-native developer.
 
 This repository is for:
 
@@ -8,11 +8,19 @@ This repository is for:
 - **Feature Fequests** — ideas for new functionality
 - **Discussions** — questions, feedback, and general conversation
 
-## Download YEN
+## Start Here
 
-Visit [yenchat.com](https://yenchat.com) to download YEN for macOS.
+- Visit [yenchat.com](https://yenchat.com) to download for macOS.
+- Subscribe to our [Update Newsletter](https://yenchat.substack.com) for Release Notes.
+- Follow [@yenFTW](https://twitter.com/yenFTW) on Twitter for the goods.
 
-## Ways to Contribute
+## Finding Your Version
+
+Open YEN and check **YEN > About YEN** in the menu bar, or run:
+
+```bash
+defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionString
+```
 
 ### Report Bugs
 
@@ -43,22 +51,13 @@ Participate in [Discussions](https://github.com/8bittts/yen-chat/discussions) to
 - Share tips and workflows
 - Connect with other YEN users
 
-## Guidelines
+### Guidelines
 
 - **Search first** — Check if your issue or idea already exists before creating a new one.
 - **One issue per report** — Keep bug reports and feature requests focused on a single topic.
 - **Be specific** — The more detail you provide, the better we can help.
 - **Be patient** — We review all feedback, but response times may vary.
 - **Be kind** — If you need a "Code of Conduct" then you're not our people.
-
-## Finding Your Version
-
-Open YEN and check **YEN > About YEN** in the menu bar, or run:
-
-```
-bash
-defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionString
-```
 
 ---
 
