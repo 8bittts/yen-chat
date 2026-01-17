@@ -4,8 +4,8 @@ Welcome to the official community hub for **YEN** — a modern terminal for the 
 
 This repository is for:
 
-- **Bug reports** — something not working as expected
-- **Feature requests** — ideas for new functionality
+- **Bug Reports** — something not working as expected
+- **Feature Fequests** — ideas for new functionality
 - **Discussions** — questions, feedback, and general conversation
 
 ## Getting Started with YEN
@@ -49,10 +49,6 @@ defaults read /Applications/YEN.app/Contents/Info.plist CFBundleShortVersionStri
 ## Code of Conduct
 
 We're committed to providing a welcoming environment for everyone. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
-
-## Note on Source Code
-
-YEN's source code is not available in this repository. This repo exists solely for community feedback and discussion. For security vulnerabilities, please email security@yenchat.com directly rather than opening a public issue.
 
 ---
 
